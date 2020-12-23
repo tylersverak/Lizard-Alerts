@@ -9,6 +9,7 @@ tracy_quips = ['Look how cute Tracy is!', 'Woah, Tracy, looking good!', "Look wh
                 "Me: :) Tracy:^v^ Me: :)))))", "The lizard is on the move", 'Tracy is soaking up some sun! Or rather, soaking up some... lamp?', 'Bugs beware, lizard on the loose!']
 phones =['+19255968020']
 
+# given a url, sends that url and a fun quip to all the numbers in phones
 def send_text(imageurl):
   account_sid = "AC0ef30677a95a4fd96c1cdcbea4df366c"
   auth_token = "47ac773b47552bbaf77ed30e09643c56"
