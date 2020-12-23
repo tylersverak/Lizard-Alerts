@@ -1,6 +1,5 @@
+# Tyler Sverak 12-23-2020
 #NOTE: will NOT work overnight due to handling of hours
-# from imageupload import *
-# from takepicture import *
 from smshandler import *
 from gpiozero import DistanceSensor
 from datetime import datetime
