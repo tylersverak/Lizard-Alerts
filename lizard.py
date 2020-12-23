@@ -7,7 +7,7 @@ import time
 import requests
 
 
-CURRENT_NGROK = 'https://e7b4fa384181.ngrok.io' # ngrok url changes every time a tunnel is opened
+CURRENT_NGROK = '' # ngrok url changes every time a tunnel is opened
 
 # given a list of ints representing the time in hours, minutes, seconds, and past values for hours and minutes,
 # returns True if five minutes have passed otherwise returns False
