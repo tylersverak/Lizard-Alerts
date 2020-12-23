@@ -1,3 +1,4 @@
+# https://picamera.readthedocs.io/en/latest/recipes2.html#web-streaming
 import io
 import picamera
 import logging
