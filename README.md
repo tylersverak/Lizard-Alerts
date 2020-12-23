@@ -1,7 +1,12 @@
 # Lizard-Alerts
 setting up text alerts to a live video feed for when the lizard moves
 
-Requirements to Run- ngrok, running ngrok tunnel to localhost, 
+Requirements to Run- ngrok, running ngrok tunnel to localhost, import io
+import picamera
+import logging
+import socketserver
+from threading import Condition
+from http import server
 
 Summary- 
 
