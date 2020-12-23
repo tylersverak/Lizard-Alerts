@@ -1,4 +1,5 @@
 # Tyler Sverak 12-23-2020
+# some variable values have been replaced for privacy reasons
 import requests
 import os
 from twilio.rest import Client
@@ -12,8 +13,8 @@ phones =['+19255968020']
 
 # given a url, sends that url and a fun quip to all the numbers in phones
 def send_text(imageurl):
-  account_sid = "AC0ef30677a95a4fd96c1cdcbea4df366c"
-  auth_token = "47ac773b47552bbaf77ed30e09643c56"
+  account_sid = # *sid goes here*
+  auth_token = # *auth token goes here*
   client = Client(account_sid, auth_token)
   stuff = tracy_quips[random.randint(0, len(tracy_quips) - 1)]
   print(stuff)
@@ -27,4 +28,4 @@ def send_text(imageurl):
   print(message.sid)
 
 if __name__ == "__main__":
-    send_text('https://192.168.4.45:8000/lizardpictures/')
+    send_text('https://*ip address*:8000/lizardpictures/')
